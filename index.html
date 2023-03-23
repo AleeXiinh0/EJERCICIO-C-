@@ -6,19 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
-    <style>
-        .medio{
-            display: flex;
-            width:500px;
-        }
-        .textodrc{
-            padding-left: 5%;
-        }
-    </style>
 </head>
 
 <body>
-    <main class="container-fluid">
+    <main class="container">
         <nav>
             <ul>
                 <li><a href="#">Uno</a></li>
@@ -86,30 +77,144 @@
         <blockquote>"Maecenas vehicula metus tellus, vitae congue turpis hendrerit non. Nam at dui sit amet ipsum cursus
             ornare."<footer><cite>- Phasellus eget lacinia</cite></footer>
         </blockquote>
-        <section class="medio">
+        <section class="grid">
             <div>
-                <img src="https://images.pexels.com/photos/4612304/pexels-photo-4612304.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                <p>Lorem ipsum dolor sit afffffffffffffffffffffffffffffffffffffffmet, consectetur adipisicing elit. Tatum veniam labore.</p>
+                <img src="https://images.pexels.com/photos/4612304/pexels-photo-4612304.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae velit doloremque accusamus quibusdam
+                    dolorem repellendus eligendi totam commodi quos. Rem assumenda magni sunt totam omnis iusto placeat
+                    ex beatae unde.</p>
             </div>
-            <div class="textodrc">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus repellat beatae libero earum, nmincidunitatis corrupti consectetur esse et dolor, quisquam laborum sapiente quo est sit necessitatibus, temporibus doloribus explic minus delectus dolorem necessitatibus perferendis, iusto molestiae voluptatem!</p>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi quasi, est veritatis error
+                    asperiores dolores perferendis quisquam minima adipisci assumenda sapiente recusandae cumque
+                    tempora, doloremque porro nostrum, quae officia nisi voluptatum! Autem aperiam facilis eius soluta
+                    consectetur in dolor quia laudantium totam corporis asperiores a nam atque, quibusdam laborum omnis
+                    ipsum commodi exercitationem officia aliquam numquam delectus! Officiis necessitatibus laudantium
+                    nostrum temporibus cupiditate soluta obcaecati, aspernatur enim sapiente, minima blanditiis a
+                    repellat asperiores animi ipsam, quas itaque quos at minus commodi. Est, sed repellendus inventore
+                    nulla, iusto quaerat, nostrum reiciendis quisquam architecto error excepturi. Praesentium nam
+                    eveniet consequatur minus unde voluptatum qui numquam perferendis, quisquam nihil eos iste pariatur
+                    earum. Dignissimos minus necessitatibus, perspiciatis suscipit, magnam officia nesciunt doloribus
+                    deserunt dolorum illum adipisci aliquid nisi corrupti ratione nostrum amet? Ipsa quos, enim dicta
+                    reprehenderit iste minus mollitia molestiae cum dolorum deleniti eos, eum nam dolorem veniam quidem.
+                    Sunt adipisci pariatur fuga explicabo provident obcaecati iste, assumenda tempore omnis doloremque
+                    mollitia aperiam consequatur ipsam id quis ab reprehenderit molestiae praesentium excepturi a veniam
+                    quaerat dolore! Fugiat excepturi inventore nihil cumque atque quibusdam libero eius modi eaque! Ut,
+                    magni dolorum odio vero optio placeat praesentium. Quaerat reprehenderit corrupti commodi rerum
+                    provident! Labore!</p>
             </div>
         </section>
-        <section>
+        <section class="grid">
             <div>
-                <div>
-                <img src="https://media.staticontent.com/media/pictures/0f788e13-7633-4d39-986c-393f131cf682/300x200" alt="">
-                <img src="https://misanimales.com/wp-content/uploads/2022/08/ojos-de-gato-300x200.jpg" alt="">
-                <img src="https://www.elagoradiario.com/wp-content/uploads/2019/08/tibur%C3%B3n-blanco-300x200.jpg" alt="">
+                <img src="https://media.staticontent.com/media/pictures/0f788e13-7633-4d39-986c-393f131cf682/300x200">
+                <p>Imagen 1</p>
             </div>
-            <br>
             <div>
-                <img src="https://media.staticontent.com/media/pictures/0f788e13-7633-4d39-986c-393f131cf682/300x200" alt="">
-                <img src="https://misanimales.com/wp-content/uploads/2022/08/ojos-de-gato-300x200.jpg" alt="">
-                <img src="https://www.elagoradiario.com/wp-content/uploads/2019/08/tibur%C3%B3n-blanco-300x200.jpg" alt="">
+                <img src="https://misanimales.com/wp-content/uploads/2022/08/ojos-de-gato-300x200.jpg">
+                <p>Imagen 2</p>
+            </div>
+            <div>
+                <img src="https://www.elagoradiario.com/wp-content/uploads/2019/08/tibur%C3%B3n-blanco-300x200.jpg">
+                <p>Imagen 3</p>
             </div>
         </section>
+        <section class="grid">
+            <div>
+                <img src="https://media.staticontent.com/media/pictures/0f788e13-7633-4d39-986c-393f131cf682/300x200">
+                <p>Imagen 4</p>
+            </div>
+            <div>
+                <img src="https://misanimales.com/wp-content/uploads/2022/08/ojos-de-gato-300x200.jpg">
+                <p>Imagen 5</p>
+            </div>
+            <div>
+                <img src="https://www.elagoradiario.com/wp-content/uploads/2019/08/tibur%C3%B3n-blanco-300x200.jpg">
+                <p>Imagen 6</p>
+            </div>
+        </section>
+        <form>
+            <div class="grid">
+                <label for="firstname">
+                    Nombre
+                    <input type="text" id="firstname" name="firstname" required>
+                </label>
+
+                <label for="lastname">
+                    Apellidos
+                    <input type="text" id="lastname" name="lastname" required>
+                </label>
+            </div>
+            <div class="grid">
+                <label for="firstname">
+                    Telefono
+                    <input type="text" id="firstname" name="firstname" required>
+                </label>
+
+                <label for="lastname">
+                    Usuario
+                    <input type="text" id="lastname" name="lastname" required>
+                </label>
+                <label for="lastname">
+                    Email
+                    <input type="text" id="lastname" name="lastname" required>
+                </label>
+            </div>
+            <div class="grid">
+                <label for="Busqueda">
+                    Busqueda
+                    <input type="search" id="search" name="search">
+                </label>
+                <select id="seleccionar" required>
+                    <option value="" selected>Elegir los permisos</option>
+                    <option>administrador</option>
+                    <option>usuario</option>
+                    <option>invitado</option>
+                </select>
+            </div>
+            <div class="grid">
+                <fieldset>
+                    <legend>Size</legend>
+                    <label for="small">
+                        <input type="radio" id="small" name="size" value="small" checked>
+                        Small
+                    </label>
+                    <label for="medium">
+                        <input type="radio" id="medium" name="size" value="medium">
+                        Medium
+                    </label>
+                    <label for="large">
+                        <input type="radio" id="large" name="size" value="large">
+                        Large
+                    </label>
+                    <label for="extralarge">
+                        <input type="radio" id="extralarge" name="size" value="extralarge" disabled>
+                        Extra Large
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms">
+                        I agree to the Terms and Conditions
+                    </label>
+                    <label for="terms_sharing">
+                        <input type="checkbox" id="terms_sharing" name="terms_sharing" disabled checked>
+                        I agree to share my information with partners
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="switch">
+                        <input type="checkbox" id="switch" name="switch" role="switch">
+                        Publish on my profile
+                    </label>
+                    <label for="switch_disabled">
+                        <input type="checkbox" id="switch_disabled" name="switch_disabled" role="switch_disabled"
+                            disabled checked>
+                        User must change password at next logon
+                    </label>
+                </fieldset>
+            </div>
+        </form>
     </main>
 </body>
-  
 </html>
